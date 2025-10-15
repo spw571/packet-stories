@@ -1,0 +1,12 @@
+:root{ --accent: #0b7285; --bg: #ffffff; --text: #111827 }
+*{ box-sizing: border-box }
+body{ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; color: var(--text); background: var(--bg); margin:0 }
+.wrapper{ max-width: 900px; margin:0 auto; padding: 1rem }
+.site-header{ border-bottom: 1px solid #e6e6e6; background: #f8fafc }
+.site-header .wrapper{ display:flex; justify-content:space-between; align-items:center }
+.brand{ font-weight:600; text-decoration:none; color:var(--text) }
+.nav a{ margin-left: 1rem; text-decoration:none; color:var(--accent) }
+.container{ padding: 2rem }
+.post-meta{ color:#6b7280; font-size:0.95rem }
+.site-footer{ border-top:1px solid #e6e6e6; padding:1rem; text-align:center; color:#6b7280 }
+.content img{ max-width:100% }
