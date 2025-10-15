@@ -1,0 +1,21 @@
+title: Packet Stories
+email: savanpatel988@gmail.com
+description: "Real-world networking insights and configurations"
+baseurl: "" # the subpath of your site, e.g. /blog (leave blank for top-level)
+url: "https://packet-stories.github.io" # update if you use a custom domain
+theme: minima
+markdown: kramdown
+paginate: 5
+
+# author info used in templates
+author:
+name: Savan Patel
+email: savanpatel988@gmail.com
+
+# Jekyll options
+plugins: []
+
+# social links (optional)
+social:
+- name: github
+url: https://github.com/spw571/packet-stories
